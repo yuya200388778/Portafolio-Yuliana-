@@ -20,7 +20,13 @@ src/
   App.js           arma la página
   styles.css       estilos globales
   components/      piezas reutilizables (Navbar, Footer)
-  sections/        secciones (Hero, About, Projects, Contact)
-  data/            contenido editable (projects.js)
-  assets/          imágenes y recursos
+  sections/        secciones (Hero, About, Experience, Projects, Contact)
+  data/            contenido editable (profile.js: datos y biografía; projects.js: los 20 proyectos)
+  assets/          imágenes (yuliana.jpg es la foto del portafolio)
 ```
+
+## Personalizar
+
+- Correo, LinkedIn y GitHub: `src/data/profile.js` (los enlaces vacíos no se muestran).
+- Enlaces de cada proyecto: campo `url` en `src/data/projects.js`.
+- Para cambiar la foto, reemplaza `src/assets/yuliana.jpg`.
