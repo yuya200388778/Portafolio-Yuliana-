@@ -1,24 +1,26 @@
 # Portafolio Yuliana
 
-Portafolio personal hecho con React + Vite.
+Portafolio personal hecho con HTML, CSS, JavaScript y React (react-scripts, la misma plantilla de React de CodeSandbox).
 
 ## Uso
 
 ```bash
 npm install
-npm run dev      # servidor de desarrollo
+npm start        # abre http://localhost:3000
 npm run build    # compilar para producción
 ```
 
 ## Estructura
 
 ```
-public/            archivos estáticos (favicon)
+package.json       dependencias y comandos
+public/index.html  página base
 src/
-  assets/          imágenes y recursos
+  index.js         punto de entrada
+  App.js           arma la página
+  styles.css       estilos globales
   components/      piezas reutilizables (Navbar, Footer)
-  sections/        secciones de la página (Hero, About, Projects, Contact)
+  sections/        secciones (Hero, About, Projects, Contact)
   data/            contenido editable (projects.js)
-  App.jsx          arma la página
-  index.css        estilos globales
+  assets/          imágenes y recursos
 ```
